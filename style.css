@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color: lightblue;
+    padding: 20px 0px 20px 100px;
+}
+
+.header_logo {
+    display: flex;
+    margin: 0px;
+}
+
+.header_links {
+    display: flex;
+    margin-left: auto;
+    padding: 20px 20px 20px 80px;
+}
+
+.header_links a{
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+.header_links a:hover {
+    cursor: pointer;
+    background-color: lightgreen;
+}
